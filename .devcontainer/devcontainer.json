@@ -1,5 +1,11 @@
 {
   "name": "Java 21",
   "image": "mcr.microsoft.com/devcontainers/java:1-21",
+  "features": {
+  "ghcr.io/devcontainers/features/java:1": {
+    "version": "none",
+    "installMaven": "false",
+    "installGradle": "true"
+  },
   "forwardPorts": [8080]
 }
